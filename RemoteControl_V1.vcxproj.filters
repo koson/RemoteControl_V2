@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="_core">
+      <UniqueIdentifier>{de066940-eb9e-4d65-99a5-8819715aabcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries">
+      <UniqueIdentifier>{f0a63d8b-f9cf-4407-9fd8-f781b03d7cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\IOHandler">
+      <UniqueIdentifier>{d1550030-b7bb-4b49-8c1a-7157072af143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\IRDecode">
+      <UniqueIdentifier>{546aa65f-2d53-4572-bb26-e46d62d3cc84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\IRremote">
+      <UniqueIdentifier>{00d23563-cc83-4939-af4a-5a5b21004e4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\SevenSeg">
+      <UniqueIdentifier>{dc534592-34a3-4940-aad8-b3fdb72d7e1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\wire">
+      <UniqueIdentifier>{95da6c25-93e6-40e9-ae12-b24c9e5efe67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\wire\utility">
+      <UniqueIdentifier>{b9de9ec6-2abe-4700-bd28-b1027eb3cadf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\Relay">
+      <UniqueIdentifier>{0a2bbb71-1db1-42f8-a268-0ebe5d7100da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_libraries\TPIC6B595">
+      <UniqueIdentifier>{5ebb894c-d612-406d-bf39-101dc336a4da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\wiring_pulse.S">
+      <Filter>_core</Filter>
+    </None>
+    <None Include="RemoteControl_V2.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\Arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\binary.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\Client.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\HardwareSerial.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\HardwareSerial_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\IPAddress.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\new.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\Print.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\Printable.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\Server.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\Stream.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\Udp.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\USBAPI.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\USBCore.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\USBDesc.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\WCharacter.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\wiring_private.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\WString.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\variants\eightanaloginputs\pins_arduino.h">
+      <Filter>_core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\IOHandler\LED.h">
+      <Filter>_libraries\IOHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\IOHandler\LEDhandler.h">
+      <Filter>_libraries\IOHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\IOHandler\SWHandler.h">
+      <Filter>_libraries\IOHandler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\IRDecode\IRDecode.h">
+      <Filter>_libraries\IRDecode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\IRremote\IRremote.h">
+      <Filter>_libraries\IRremote</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\IRremote\IRremoteInt.h">
+      <Filter>_libraries\IRremote</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\SevenSeg\Seg7.h">
+      <Filter>_libraries\SevenSeg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\wire\Wire.h">
+      <Filter>_libraries\wire</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\wire\utility\twi.h">
+      <Filter>_libraries\wire\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="RELAY.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\Relay\RELAY.h">
+      <Filter>_libraries\Relay</Filter>
+    </ClInclude>
+    <ClInclude Include="__vm\.RemoteControl_V2.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\TPIC6B595\config.h">
+      <Filter>_libraries\TPIC6B595</Filter>
+    </ClInclude>
+    <ClInclude Include="..\libraries\TPIC6B595\TPIC6B595.h">
+      <Filter>_libraries\TPIC6B595</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\abi.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\CDC.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\HardwareSerial.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\HardwareSerial0.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\HardwareSerial1.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\HardwareSerial2.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\HardwareSerial3.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\HID.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\hooks.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\IPAddress.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\main.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\new.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\Print.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\Stream.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\Tone.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\USBCore.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\WInterrupts.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\wiring.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\wiring_analog.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\wiring_digital.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\wiring_pulse.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\wiring_shift.c">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\WMath.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Koson\AppData\Roaming\arduino15\packages\arduino\hardware\avr\1.6.8\cores\arduino\WString.cpp">
+      <Filter>_core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\IOHandler\LED.cpp">
+      <Filter>_libraries\IOHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\IOHandler\SWHandler.cpp">
+      <Filter>_libraries\IOHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\IRDecode\IRDecode.cpp">
+      <Filter>_libraries\IRDecode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\IRremote\IRremote.cpp">
+      <Filter>_libraries\IRremote</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\SevenSeg\seg7.cpp">
+      <Filter>_libraries\SevenSeg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\wire\Wire.cpp">
+      <Filter>_libraries\wire</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\wire\utility\twi.c">
+      <Filter>_libraries\wire\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="RELAY.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\Relay\RELAY.cpp">
+      <Filter>_libraries\Relay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\libraries\TPIC6B595\TPIC6B595.cpp">
+      <Filter>_libraries\TPIC6B595</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
